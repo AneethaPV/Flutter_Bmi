@@ -69,7 +69,7 @@ class _bmiState extends State<bmi> {
                   )),
               SizedBox(height: 10),
               Text(
-                "Result= $result",
+                "Result=${result.toStringAsFixed(2)}",
                 // style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               )
             ],
